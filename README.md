@@ -10,7 +10,7 @@ $ npm install create-component-react -g
 Comes with some flags out of the box. More to be added as and when. Navigate to the path where you want to create your component and run:
 
 ```sh
-$ npm create-component-react MyComponent
+$ npm create-component MyComponent
 ```
 This creates an folder called `MyComponent` which contains: `index.js`, `MyComponent.js` and `MyComponent_test.js` by default. Its render method will return a `div` with  `className="MyComponent"`.
 
