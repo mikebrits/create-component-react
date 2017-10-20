@@ -67,8 +67,10 @@ it('MyComponent renders correctly', () => {
 | -\-stylus | Adds a `MyComponent.styl` file and imports it into the component|
 | -\-stateless | Returns a stateless function component instead of a full react class. **Note: Cannot be used with --store** |
 | -\-styled | Accepts a comma separated list of components. Will generate a `MyComponent.sc.js` file. Full example below  |
-|-\-store| Accepts a comma separated list of store properties. Will generate a `MyComponent.store.js` file. Full example below |
-|-\-props| Accepts a comma separated list of props. Required props are denoted with a caret ^. Full example below|
+| -\-store| Accepts a comma separated list of store properties. Will generate a `MyComponent.store.js` file. Full example below |
+| -\-props| Accepts a comma separated list of props. Required props are denoted with a caret ^. Full example below|
+| -\-styled | Adds a `MyComponent.sc.js` file that exports a `Container` `styled.div`. This will replace your standard `div` in `MyComponent` and replace it with `<Container></Container>` |
+
 
 ## Injecting a Store
 ### Usage
