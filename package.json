@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "create-component-dev": "./bin/index.js"
+    "create-component-react": "./bin/index.js"
   },
   "preferGlobal": "true",
   "dependencies": {
